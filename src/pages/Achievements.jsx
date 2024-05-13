@@ -11,7 +11,7 @@ export default function Achievements(){
 return(
 
     <main>
-            <section>
+            <section class="text-center ">
                <img src={Imagebanner} alt="banner" />
             </section>
             
@@ -24,8 +24,8 @@ return(
             <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style={{height:'4px',marginBottom: '50px',}}>
                        <div class="progress-bar" style={{width:'100%'}}></div>
                  </div>
-            <div class="row " style={{display: 'flex',justifyContent: 'space-around',alignItems: 'center', }}>
-            <div class="card col-md-4 " style={{width: '25rem',paddingRight:'0px', paddingLeft:'0px',marginBlockStart: '50px'}} >
+            <div class="row justify-content-center">
+            <div class="card col-md-6 col-lg-4 mb-5" style={{width: '25rem',paddingRight:'0px', paddingLeft:'0px',marginBlockStart: '50px',marginLeft:'35px',marginRight:'35px'}} >
                <img src={Imagefood} class="card-img-top" alt="image-fresh-food"/>
                <div class="card-body ">
                   <h5 class="card-title">Fresh food</h5>
@@ -37,7 +37,7 @@ return(
                 Site réalisé avec PHP et MySQL
                 </div>
             </div>
-            <div class="card col-md-4" style={{width: '25rem',paddingRight:'0px', paddingLeft:'0px',marginBlockStart: '50px'}} >
+            <div class="card col-md-6 col-lg-4 mb-5" style={{width: '25rem',paddingRight:'0px', paddingLeft:'0px',marginBlockStart: '50px',marginLeft:'35px',marginRight:'35px'}} >
                <img src={Imagerest} class="card-img-top" alt="image restaurant akira"/>
                <div class="card-body">
                   <h5 class="card-title">Restaurant Akira</h5>
@@ -48,7 +48,7 @@ return(
                 Site réalisé avec WordPress
                 </div>
             </div>
-            <div class="card col-md-4" style={{width: '25rem',paddingRight:'0px', paddingLeft:'0px',marginBlockStart: '50px'}} >
+            <div class="card col-md-6 col-lg-4 mb-5" style={{width: '25rem',paddingRight:'0px', paddingLeft:'0px',marginBlockStart: '50px',marginLeft:'35px',marginRight:'35px'}} >
                <img src={Imageespa} class="card-img-top" alt="espace bien-être"/>
                <div class="card-body">
                   <h5 class="card-title">Espace bien-être</h5>

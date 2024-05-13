@@ -7,7 +7,7 @@ export default function Contact() {
 
     <main>
       <div>
-            <section class="row justify-content-center " style={{ backgroundImage: 'linear-gradient(rgba(0, 105, 255, 0.5), rgba(0, 105, 255, 0.5)),url(' + Imagecontact + ')', }}>
+            <section class="row justify-content-center " style={{ backgroundImage: 'linear-gradient(rgba(0, 105, 255, 0.5), rgba(0, 105, 255, 0.5)),url(' + Imagecontact + ')', backgroundRepeat:'no-repeat', backgroundAttachment:'fixed',backgroundPosition:'center', backgroundSize:'cover'}}>
             <div class="card" style={{width: '70rem',marginBottom: '50px',marginTop: '50px'}} >
               <div class="card-body">
                  <h2 class="text-center ">ME CONTACTER</h2>

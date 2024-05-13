@@ -6,8 +6,8 @@ export default function Footer() {
         <footer>
         <section>
             <div class="container" style={{paddingTop:'50px', paddingBottom:'50px'}}>
-                <div class="row">
-                    <article class="col-md-3">
+                <div class="row justify-content-center">
+                    <article class="col-md-6 col-lg-3 mb-5">
                         <h4>John Doe</h4>
                         <p>40 Rue Laure Diebold <br />69009 Lyon, France <br />Téléphone : 06 20 30 40 50</p>
                         <div style={{display: 'flex',justifyContent: 'space-around',alignItems: 'center',width: '200px' }}>
@@ -17,7 +17,7 @@ export default function Footer() {
                         
                         </div>
                     </article>
-                    <article class="col-md-3">
+                    <article class="col-md-6 col-lg-3 mb-5">
                         <h4>Liens utiles</h4>
                         <ul>
                             <li>
@@ -37,7 +37,7 @@ export default function Footer() {
                             </li>
                         </ul>
                     </article >
-                    <article class="col-md-3">
+                    <article class="col-md-6 col-lg-3 mb-5">
                     <h4>Mes dernières réalisations</h4>
                     <ul>
                         <li>
@@ -51,7 +51,7 @@ export default function Footer() {
                         </li>
                     </ul>
                     </article>
-                    <article class="col-md-3">
+                    <article class="col-md-6 col-lg-3 mb-5">
                     <h4>Mes derniers articles</h4>
                     <ul>
                         <li>
