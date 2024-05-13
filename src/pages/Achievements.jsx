@@ -1,4 +1,4 @@
-import Imagebanner from '../img/banner.jpg'
+
 import Imagefood from '../img/portfolio/fresh-food.jpg'
 import Imagerest from '../img/portfolio/restaurant-japonais.jpg'
 import Imageespa from '../img/portfolio/espace-bien-etre.jpg'
@@ -11,10 +11,10 @@ export default function Achievements(){
 return(
 
     <main>
-            <section class="text-center ">
-               <img src={Imagebanner} alt="banner" />
-            </section>
             
+            <section class="imgban">
+               
+            </section>
             <section>
 
             <div id="portfolio" class="text-center p-4"  >

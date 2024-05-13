@@ -1,4 +1,4 @@
-import Imagebanner from '../img/banner.jpg'
+
 
 
 export default function Services(){
@@ -8,8 +8,8 @@ export default function Services(){
   return(
     <main>
       <div class="text-center ">
-            <section>
-               <img class="img-fluid "  src={Imagebanner} alt="banner " />
+            <section class="imgban">
+               
             </section>
             
             <section>

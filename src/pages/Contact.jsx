@@ -17,33 +17,33 @@ export default function Contact() {
                  </div>
                   <div class="row justify-content-center">
                     <div class="col-md-6">
-                    <h3 class="text-uppercase">Formulaire de contact</h3>
+                    <h3 class="forcont text-uppercase">Formulaire de contact</h3>
                     <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style={{height:'2px',marginBottom: '50px',}}>
                        <div class="progress-bar" style={{width:'100%'}}></div>
                     </div>
                         <form action="index.html" method="post">
                         <div class="mb-3">
                           <label for="nom" class="form-label">Votre nom (*)</label>
-                          <input type="text" class="form-control" id="nom" required/>
+                          <input type="text" class="form-control" placeholder='Nom' id="nom" required/>
                         </div>
                         <div class="mb-3">
                           <label for="email" class="form-label">Votre email (*)</label>
-                          <input type="email" class="form-control" id="email" required/>
+                          <input type="email" class="form-control" placeholder='Email' id="email" required/>
                         </div>
                         <div class="mb-3">
                           <label for="phone" class="form-label">Votre numéro de téléphone (*)</label>
-                          <input type="tel" class="form-control" id="phone" required/>
+                          <input type="tel" class="form-control" placeholder='Numéro de téléphone' id="phone" required/>
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label">Votre message (*)</label>
-                            <textarea rows="4" cols="50" class="form-control" id="message" required></textarea>
+                            <textarea rows="4" cols="50" class="form-control" placeholder='Message' id="message" required></textarea>
                         </div>
                         <a  class="btn btn-primary " >Envoyer</a>
                     </form>
 
                     </div>
                     <div class="col-md-6">
-                    <h3 class="text-uppercase">Mes coordonnées</h3>
+                    <h3 class="mescoord text-uppercase">Mes coordonnées</h3>
                     <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style={{height:'2px',marginBottom: '50px',}}>
                        <div class="progress-bar" style={{width:'100%'}}></div>
                     </div>

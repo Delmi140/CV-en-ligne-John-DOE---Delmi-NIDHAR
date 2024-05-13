@@ -70,8 +70,8 @@ export default function Footer() {
             </div>
         </section>
         <section id="p-copy" class="text-white text-center" style={{paddingTop:'20px', paddingBottom:'20px',}}> 
-           <a id="haut-page" href="#navi"  class="btn btn-primary" style={{marginTop:'20px', marginBottom:'20px',}}>Haut de Page</a>
            <p  class=" m-0">&copy; Designed by John Doe</p>
+           <a id="haut-page" href="#navi"  class="btn btn-primary" style={{marginTop:'20px', marginBottom:'20px',}}>Haut de Page</a>
         </section>
     </footer>
 

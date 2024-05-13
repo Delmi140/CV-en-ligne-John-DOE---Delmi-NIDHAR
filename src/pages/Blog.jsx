@@ -1,4 +1,4 @@
-import Imagebanner from '../img/banner.jpg'
+
 import Imagecod from '../img/blog/coder.jpg'
 import Imagevend from '../img/blog/croissance.jpg'
 import Imagegoog from '../img/blog/google.jpg'
@@ -10,9 +10,9 @@ export default function Blog() {
   return(
 
     <main>
-            <section class="text-center ">
-               <img src={Imagebanner} alt="banner" />
-            </section>
+            <section class="imgban">
+               
+               </section>
             <section>
                 <div id="portfolioblog" class="text-center p-4" >
                   <h2 class="text-uppercase">BLOG</h2>

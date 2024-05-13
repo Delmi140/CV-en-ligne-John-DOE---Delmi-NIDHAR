@@ -1,31 +1,16 @@
 
-import Imagerepre from '../img/john-doe-about.jpg'
-import Imagehero from '../img/hero-bg.jpg'
-import React, {useState,useEffect} from "react"
+
 
 export default function Home() {
-
-  const [users,setUsers] = useState([]);
-
-  const getUsers = async () => {
-    const res =  await fetch("https://api.github.com/users/github-john-doe/repos");
-    const json = await res.json();
-    setUsers(json);
-  }
-
-  useEffect(() => {
-    getUsers();
-
-  },[])
-
+  
 
   return (
        <main>
             
-            <section id="slider" class=" text-light text-center p-4" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(' + Imagehero + ')',backgroundRepeat:'no-repeat' ,backgroundPosition:'center', backgroundSize:'cover',}}>
-                 <h1 class="text-uppercase mb-3 " style={{marginTop: '25%'}}>Bonjour, je suis John Doe</h1>
+            <section id="slider" class="imagehero text-light text-center p-4">
+                 <h1 class="text-uppercase mb-3 " style={{marginTop: '10%'}}>Bonjour, je suis John Doe</h1>
                  <h2 >Développeur web full stack</h2>
-                 <a href="#aprops" class="btn btn-primary" style={{marginBottom: '25%'}}>En savoir plus</a>
+                 <a href="#aprops" class="btn btn-primary" >En savoir plus</a>
             </section>
             
     
@@ -37,13 +22,16 @@ export default function Home() {
                     <div class=" col-md-6">
                     <h3>À propos</h3>
                     
+                    <a href=""></a>
                     <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style={{height:'2px'}}>
                        <div class="progress-bar" style={{width:'100%'}}></div>
                     </div>
                     <p>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'<strong>intégrateur-développeur web </strong>au CEF. Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web</strong>. <br /> Basé à Lyon, je suis en recherche d'une alternance au sein d'une agence digitale pour consolider ma formation de <strong>développeur web full stack</strong>. <br /> J'accorde une attention particulière à la qualité du code que j'écris et je respecte les bonnes pratiques du web.</p>
                     </div>
                     <div class=" col-md-6">
-                        <img class="imagerepre" src={Imagerepre} alt="espace bien-être" />
+                        <div class="imagerep">
+
+                        </div>
                         
                         <h3>Mes compétences</h3>
                         <p>HTML5 90%</p>

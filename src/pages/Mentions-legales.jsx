@@ -1,5 +1,19 @@
+import React,{useState,useEffect} from "react"
+
 
 export default function Mentionslegales(){
+
+  const [users,setUsers] = useState ([]);
+
+  const getUsers = async () => {
+    const res= await fetch("https://api.github.com/users/github-john-doe/repos")
+    const json = await res.json();
+    setUsers(json)
+  }
+
+  useEffect(() => {
+    getUsers();
+  },[])
 
   return(
 
@@ -43,6 +57,19 @@ export default function Mentionslegales(){
                      </div>
                    </div>
                  </div>
+                <div>
+                <div class="accordion-item">
+                   <h2 class="accordion-header" id="panelsStayOpen-headingFour"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">Profil Github</button></h2>
+                   <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                     <div class="accordion-body">
+                      <h3>Profil Github</h3>
+                      <p>Login: {users.map(user => (<p>{user.owner.login}</p>))}</p>
+                      <p>ID: {users.map(user => (<p>{user.owner.id}</p>))}</p>
+                      <p>Adresse Github :{users.map(user => (<p>{user.owner.url}</p>))}</p>  
+                     </div>
+                   </div>
+                 </div>
+                </div>
                </div>
               </div>
             </section>
