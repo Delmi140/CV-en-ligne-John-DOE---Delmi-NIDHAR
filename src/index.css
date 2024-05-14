@@ -354,19 +354,6 @@ template {
 
 
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 
 
@@ -383,41 +370,7 @@ header{
     "wdth" 100,
     "YTLC" 500;
 }
-#p-accueil{
-  color: #444;
-}
-#p-accueil:hover{
-  color:white;
-  opacity: 0.8;
-}
-#p-services{
-  color: #444;
-}
-#p-services:hover{
-  color:white;
-  opacity: 0.8;
-}
-#p-realisations{
-  color: #444;
-}
-#p-realisations:hover{
-  color:white;
-  opacity: 0.8;
-}
-#p-blog{
-  color: #444;
-}
-#p-blog:hover{
-  color:white;
-  opacity: 0.8;
-}
-#p-contact{
-  color: #444;
-}
-#p-contact:hover{
-  color:white;
-  opacity: 0.8;
-}
+
 
 main{
  
@@ -445,26 +398,9 @@ footer{
     "wdth" 100,
     "YTLC" 500;
 }
-#p-copy{
-  background-color: #000000;
-}
 
-#icon-ux:hover{
-  color: #cde1f8;
-}
-#icon-dev:hover{
-  color: #cde1f8;
-}
-#icon-ref:hover{
-  color: #cde1f8;
-}
 
-#haut-page:hover{
-  background-color: #298eff;
-}
-#haut-page{
-  color: #EEE;
-}
+
 
 h1{
   font-family: "Nunito Sans", sans-serif;
@@ -601,7 +537,75 @@ h4{
 }
 
 
+/*nav*/
 
+#p-accueil{
+  color: #444;
+}
+#p-accueil:hover{
+  color:white;
+  opacity: 0.8;
+}
+#p-services{
+  color: #444;
+}
+#p-services:hover{
+  color:white;
+  opacity: 0.8;
+}
+#p-realisations{
+  color: #444;
+}
+#p-realisations:hover{
+  color:white;
+  opacity: 0.8;
+}
+#p-blog{
+  color: #444;
+}
+#p-blog:hover{
+  color:white;
+  opacity: 0.8;
+}
+#p-contact{
+  color: #444;
+}
+#p-contact:hover{
+  color:white;
+  opacity: 0.8;
+}
+
+
+
+
+
+
+/*serices*/
+#p-copy{
+  background-color: #000000;
+}
+
+#icon-ux:hover{
+  color: #cde1f8;
+}
+#icon-dev:hover{
+  color: #cde1f8;
+}
+#icon-ref:hover{
+  color: #cde1f8;
+}
+
+#haut-page:hover{
+  background-color: #298eff;
+}
+#haut-page{
+  color: #EEE;
+}
+
+
+
+
+/*contact*/
 
 .mescoord{
   margin-top: 20px;

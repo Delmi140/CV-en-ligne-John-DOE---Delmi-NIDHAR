@@ -21,24 +21,25 @@ export default function Contact() {
                     <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style={{height:'2px',marginBottom: '50px',}}>
                        <div class="progress-bar" style={{width:'100%'}}></div>
                     </div>
-                        <form action="index.html" method="post">
+                        <form action="index.html"  method="post">
                         <div class="mb-3">
-                          <label for="nom" class="form-label">Votre nom (*)</label>
-                          <input type="text" class="form-control" placeholder='Nom' id="nom" required/>
+                          <input type="text" class="form-control"  style={{marginBottom:'20px'}} placeholder='Votre nom' id="nom" required/>
                         </div>
                         <div class="mb-3">
-                          <label for="email" class="form-label">Votre email (*)</label>
-                          <input type="email" class="form-control" placeholder='Email' id="email" required/>
+                          <input type="email" class="form-control" style={{marginBottom:'20px'}} placeholder='Votre adresse email' id="email" required/>
                         </div>
                         <div class="mb-3">
-                          <label for="phone" class="form-label">Votre numéro de téléphone (*)</label>
-                          <input type="tel" class="form-control" placeholder='Numéro de téléphone' id="phone" required/>
+                          <input type="tel" class="form-control" style={{marginBottom:'20px'}} placeholder='Votre numéro de téléphone' id="phone" required/>
                         </div>
                         <div class="mb-3">
-                            <label for="message" class="form-label">Votre message (*)</label>
-                            <textarea rows="4" cols="50" class="form-control" placeholder='Message' id="message" required></textarea>
+                          <input type="sujet" class="form-control" style={{marginBottom:'20px'}} placeholder='Sujet' id="sujet" required/>
                         </div>
-                        <a  class="btn btn-primary " >Envoyer</a>
+                        <div class="mb-3">
+                            <textarea rows="4" cols="50" class="form-control" style={{marginBottom:'20px'}} placeholder='Votre message' id="message" required></textarea>
+                        </div>
+                        <div class="text-center">
+                           <a  class="btn btn-primary " >Envoyer</a>
+                        </div>
                     </form>
 
                     </div>
@@ -51,7 +52,8 @@ export default function Contact() {
                             <i class="fas fa-map-marker"></i> 40 Rue Laure Diebold, 69009 Lyon, France<br/>
                             <i class="fas fa-mobile-alt"></i> 06 20 30 40 50<br/>
                         </address>
-                        <iframe src="https://www.google.fr/maps/place/40+Rue+Laure+Diebold,+69009+Lyon/@45.7786657,4.796404,17z/data=!3m1!4b1!4m6!3m5!1s0x47f4eb65edac5b3f:0xe01c47049cb2e2b9!8m2!3d45.778662!4d4.7989789!16s%2Fg%2F11c24790th?entry=ttu" frameborder="0"></iframe>
+                        
+                        <iframe src="https://www.google.fr/maps/place/40+Rue+Laure+Diebold,+69009+Lyon/@45.778662,4.7989789,17z/data=!3m1!4b1!4m6!3m5!1s0x47f4eb65edac5b3f:0xe01c47049cb2e2b9!8m2!3d45.778662!4d4.7989789!16s%2Fg%2F11c24790th?entry=ttu" width="100%" height="400"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
               </div>

@@ -11,9 +11,11 @@ export default function Footer() {
                         <h4>John Doe</h4>
                         <p>40 Rue Laure Diebold <br />69009 Lyon, France <br />Téléphone : 06 20 30 40 50</p>
                         <div style={{display: 'flex',justifyContent: 'space-around',alignItems: 'center',width: '200px' }}>
-                         <i class="fa-brands fa-github fa-3x"></i>
-                         <i class="fa-brands fa-square-twitter fa-3x"></i>
-                         <i class="fa-brands fa-linkedin fa-3x"></i>
+                         
+                         <a href="https://github.com/github-john-doe" target="_blank" ><i class="fa-brands fa-github fa-3x"></i></a>
+                         <a href="https://twitter.com/jdoe?lang=fr" target="_blank"><i class="fa-brands fa-square-twitter fa-3x"></i></a>
+                         <a href="https://www.linkedin.com/in/john-doe-1b5027a5/" target="_blank"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+                         
                         
                         </div>
                     </article>

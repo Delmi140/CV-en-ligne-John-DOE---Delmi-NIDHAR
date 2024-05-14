@@ -32,8 +32,8 @@ export default function Mentionslegales(){
                         <h3>John Doe</h3>
                         <address>
                             <i class="fas fa-map-marker"></i> 40 Rue Laure Diebold <br /> 69009 Lyon, France<br/>
-                            <i class="fas fa-mobile-alt"></i> 06 20 30 40 50<br/>
-                            <i class="fa-solid fa-envelope"></i> john.doe@gmail.com
+                            <i class="fas fa-mobile-alt"></i><a href="tel:0620304050"> 06 20 30 40 50</a> <br/>
+                            <i class="fa-solid fa-envelope"></i><a href="mailto:john.doe@gmail.com">john.doe@gmail.com</a>
                         </address>
                        </div>
                     </div>
@@ -44,7 +44,7 @@ export default function Mentionslegales(){
                      <div class="accordion-body">
                       <h3>Always Data</h3>
                       <p>91 rue du Faubourg Saint Honoré <br /> 75008 Paris</p>
-                      <i class="fa-solid fa-globe"></i> www.alwaysdata.com 
+                      <i class="fa-solid fa-globe"></i> <a href="https://www.alwaysdata.com/fr/" target="_blank">www.alwaysdata.com </a> 
                      </div>
                    </div>
                  </div>
@@ -53,7 +53,7 @@ export default function Mentionslegales(){
                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                      <div class="accordion-body">
                       <h3>Crédits</h3>
-                      <p>Site développé par John De, étudiant du CEF. <br />Les images libres de droit sont issues du site Pixabay. </p>          
+                      <p>Site développé par John De, étudiant du CEF. <br />Les images libres de droit sont issues du site <a href="https://pixabay.com/fr/" target="_blank">Pixabay.</a> </p>          
                      </div>
                    </div>
                  </div>
@@ -63,9 +63,11 @@ export default function Mentionslegales(){
                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
                      <div class="accordion-body">
                       <h3>Profil Github</h3>
+                      <img src="" alt="" />
+                      <p>{users.map(user => (<img src={user.owner.avatar_url} style={{width:'100px'}} alt="image-avatar" />))}</p>
                       <p>Login: {users.map(user => (<p>{user.owner.login}</p>))}</p>
                       <p>ID: {users.map(user => (<p>{user.owner.id}</p>))}</p>
-                      <p>Adresse Github :{users.map(user => (<p>{user.owner.url}</p>))}</p>  
+                      <p>Adresse Github :<a href="https://github.com/github-john-doe" target="_blank"><p>{users.map(user => (<p>{user.owner.html_url}</p>))}</p>  </a></p> 
                      </div>
                    </div>
                  </div>
